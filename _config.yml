@@ -33,6 +33,9 @@ github_username:  jekyll
 theme: minima
 plugins:
   - jekyll-feed
+webrick:
+  headers:
+    Content-Security-Policy: default-src 'none'; script-src 'self'; connect-src 'self'; img-src 'self'; style-src 'self'; 
 
 # Exclude from processing.
 # The following items will not be processed, by default.
