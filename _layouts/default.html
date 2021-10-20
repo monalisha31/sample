@@ -1,11 +1,45 @@
 <!doctype html>
 <html>
   <head>
+  	<pre>
+
+
+Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
+Content-Security-Policy: upgrade-insecure-requests
+Referrer-Policy: origin-when-cross-origin
+Content-Security-Policy-Report-Only: default-src https:; script-src https: 'unsafe-inline' 'unsafe-eval'; font-src https: data:; img-src https: data:; style-src https: 'unsafe-inline'; report-uri https://www.ncbi.nlm.nih.gov/corecgi/csp/csp.cgi
+Referrer-Policy: origin-when-cross-origin
+Access-Control-Allow-Methods: POST, GET, PUT, OPTIONS, PATCH, DELETE
+Access-Control-Allow-Origin:
+Access-Control-Allow-Credentials: true
+Access-Control-Allow-Headers: X-Accept-Charset,X-Accept,Content-Type,X-Requested-With,NCBI-SID,NCBI-PHID
+Content-Type: text/html
+Vary: Accept-Encoding
+X-UA-Compatible: IE=Edge
+X-XSS-Protection: 1; mode=block
+</pre>  
     <meta charset="utf-8">
-    <meta http-equiv="Content-Security-Policy" content="default-src 'self'">
+  
     <title>{{ page.title }}</title>
   </head>
   <body>
+  		<pre>
+
+
+Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
+Content-Security-Policy: upgrade-insecure-requests
+Referrer-Policy: origin-when-cross-origin
+Content-Security-Policy-Report-Only: default-src https:; script-src https: 'unsafe-inline' 'unsafe-eval'; font-src https: data:; img-src https: data:; style-src https: 'unsafe-inline'; report-uri https://www.ncbi.nlm.nih.gov/corecgi/csp/csp.cgi
+Referrer-Policy: origin-when-cross-origin
+Access-Control-Allow-Methods: POST, GET, PUT, OPTIONS, PATCH, DELETE
+Access-Control-Allow-Origin:
+Access-Control-Allow-Credentials: true
+Access-Control-Allow-Headers: X-Accept-Charset,X-Accept,Content-Type,X-Requested-With,NCBI-SID,NCBI-PHID
+Content-Type: text/html
+Vary: Accept-Encoding
+X-UA-Compatible: IE=Edge
+X-XSS-Protection: 1; mode=block
+</pre> 
     {{ content }}
   </body>
 </html>
